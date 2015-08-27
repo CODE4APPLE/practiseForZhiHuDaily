@@ -1,0 +1,14 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '7.0'
+pod 'SDWebImage'
+pod 'Masonry'
+pod 'MJRefresh'
+pod 'MJExtension'
+pod 'MMDrawerController'
+pod 'AMScrollingNavbar'
+pod 'AFNetworking'
+pod 'JSONKit'
+pod 'FMDB'
+pod 'ReactiveCocoa'
+
+
