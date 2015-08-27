@@ -1,0 +1,2 @@
+# practiseForZhiHuDaily
+这个仓库仅作为自己练习知乎日报App
