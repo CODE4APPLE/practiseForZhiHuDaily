@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "VerticalSwipeScrollView.h"
 
-@interface DailyNewsViewController : UIViewController
+@interface DailyNewsViewController : UIViewController <VerticalSwipeScrollViewDelegate>
 
 @end

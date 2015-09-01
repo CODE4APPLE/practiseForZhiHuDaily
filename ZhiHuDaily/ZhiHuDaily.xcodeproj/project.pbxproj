@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1343BA461B942ACE00323B9D /* VerticalSwipeScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1343BA451B942ACE00323B9D /* VerticalSwipeScrollView.m */; };
+		1343BA491B94390C00323B9D /* DailyNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1343BA481B94390C00323B9D /* DailyNewsViewController.m */; };
 		135B1A6C1B8C0F120055E21C /* CustomNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 135B1A6B1B8C0F120055E21C /* CustomNavBar.m */; };
 		135B1A701B8C11FC0055E21C /* RefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 135B1A6F1B8C11FC0055E21C /* RefreshControl.m */; };
 		135B1A811B8C588D0055E21C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E9A0911B871938006C2D96 /* Main.storyboard */; };
@@ -41,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1343BA441B942ACE00323B9D /* VerticalSwipeScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalSwipeScrollView.h; sourceTree = "<group>"; };
+		1343BA451B942ACE00323B9D /* VerticalSwipeScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalSwipeScrollView.m; sourceTree = "<group>"; };
+		1343BA471B94390C00323B9D /* DailyNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailyNewsViewController.h; sourceTree = "<group>"; };
+		1343BA481B94390C00323B9D /* DailyNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyNewsViewController.m; sourceTree = "<group>"; };
 		135B1A6A1B8C0F120055E21C /* CustomNavBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavBar.h; sourceTree = "<group>"; };
 		135B1A6B1B8C0F120055E21C /* CustomNavBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavBar.m; sourceTree = "<group>"; };
 		135B1A6E1B8C11FC0055E21C /* RefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshControl.h; sourceTree = "<group>"; };
@@ -110,6 +116,8 @@
 			children = (
 				135B1A6E1B8C11FC0055E21C /* RefreshControl.h */,
 				135B1A6F1B8C11FC0055E21C /* RefreshControl.m */,
+				1343BA441B942ACE00323B9D /* VerticalSwipeScrollView.h */,
+				1343BA451B942ACE00323B9D /* VerticalSwipeScrollView.m */,
 			);
 			path = widget;
 			sourceTree = "<group>";
@@ -220,6 +228,8 @@
 				1383518B1B84776500B791C6 /* ViewController.m */,
 				135B1A821B8C597B0055E21C /* ZhiHuViewController.h */,
 				135B1A831B8C597B0055E21C /* ZhiHuViewController.m */,
+				1343BA471B94390C00323B9D /* DailyNewsViewController.h */,
+				1343BA481B94390C00323B9D /* DailyNewsViewController.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -410,10 +420,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				138351901B84776500B791C6 /* ViewController.m in Sources */,
+				1343BA491B94390C00323B9D /* DailyNewsViewController.m in Sources */,
 				18D232BC1B84D37C0094E79F /* NSDictionary+Log.m in Sources */,
 				13C6E9801B85B0A900F14B90 /* LaunchViewController.m in Sources */,
 				13E9A08C1B86BF24006C2D96 /* StoryModel.m in Sources */,
 				135B1A8B1B8C748B0055E21C /* UIScrollView+parallax.m in Sources */,
+				1343BA461B942ACE00323B9D /* VerticalSwipeScrollView.m in Sources */,
 				135B1A881B8C5D1E0055E21C /* UINavigationBar+Awesome.m in Sources */,
 				18D232BB1B84D37C0094E79F /* NSArray+Log.m in Sources */,
 				135B1A841B8C597B0055E21C /* ZhiHuViewController.m in Sources */,
